@@ -67,6 +67,7 @@ nav li a{
 }
 .banner-image img{
     padding-top: 30px;
+    width: 100%;
 }
 /*  */
 .marketplaces-section{
@@ -77,5 +78,105 @@ nav li a{
     display: flex;
     gap: 60px;
     justify-content: center;
+    align-items: center;
+}
+/*  */
+.collection-item-section{
+    margin-top: 100px;
+    padding: 10px 200px;
+    
+}
+.popular-collection{
+    text-align: center;
+    color: #3A3A3A;
+    font-size: 1.625rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.collection-container{
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    grid-template-rows: repeat(3, 470px);
+    gap: 30px;
+    
+}
+.collection-box{
+    padding: 10px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 
+}
+.collection-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.collection-box p{
+    color: #787885;
+    font-size: 	0.875rem;
+    line-height: 143%;
+    margin-top: 10px;
+}
+.collection-box h5{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.collection-box h3{
+    color: #18191F;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 40px;
+}
+.collection-see-more{
+    text-align: right;
+    margin-top: 50px;
+    color: #E02C6D;
+}
+.collection-see-more a{
+    color: #E02C6D;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+/* Responsive style start here */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 10px 10px;
+    }
+    nav, nav>ul{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 20px;
+    }
+   .banner-title, .banner-description{
+        max-width: 100%;
+        
+    }
+    .banner-image{
+        background-image: none;
+        padding-right: 0px;
+        padding-bottom: 0px;
+
+    }
+    .marketplaces{
+        flex-wrap: wrap;
+        gap: 5px;
+        margin: 0 auto;
+    }
+    .marketplace-img img{
+        max-width: 100%;
+    }
+    
 }
