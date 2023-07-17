@@ -141,10 +141,40 @@ nav li a{
     text-decoration: none;
     margin-right: 5px;
 }
-
-
-
-
+/*  */
+.feature-section{
+    padding: 10px 200px;
+}
+.feature-product-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.feature-product-image{
+    max-width: 100%;
+}
+.feature-title{
+    color: #0A0826;
+    font-size: 2.375rem;
+    font-weight: 700;
+    line-height: 60px;
+}
+.feature-description{
+    color: #6C6C6C;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 28px;
+}
+.feature-btn{
+    padding: 10px 24px;
+    background: #E02C6D;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    margin-top: 10px;
+}
 
 
 
