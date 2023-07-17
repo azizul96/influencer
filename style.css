@@ -97,6 +97,8 @@ nav li a{
     display: grid;
     grid-template-columns: repeat(3, 320px);
     grid-template-rows: repeat(3, 470px);
+    align-content: center;
+    justify-content: center;
     gap: 30px;
     
 }
@@ -177,6 +179,13 @@ nav li a{
     }
     .marketplace-img img{
         max-width: 100%;
+    }
+    .collection-item-section{
+        padding: 10px;
+    }
+    .collection-container{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(9, 1fr);
     }
     
 }
