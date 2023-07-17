@@ -68,3 +68,14 @@ nav li a{
 .banner-image img{
     padding-top: 30px;
 }
+/*  */
+.marketplaces-section{
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.marketplaces{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+
+}
